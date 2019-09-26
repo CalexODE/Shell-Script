@@ -7,7 +7,8 @@ whoami
 echo "Tempo ligado: "
 uptime
 echo "Diretório:"
-pwd
+diretorio=`pwd`
+echo "Onde estou $diretorio"
 
 meu_nome="Alexandre Andrade"
 echo "O nome do Usuário logado é $meu_nome"
@@ -18,6 +19,10 @@ echo "A saido do ls -l foi: $saida_armazenada"
 echo "Diga-me, qual a sua idade?"
 read idade
 echo "Sua idade é: $idade"
+
+echo "Agora seu nome:"
+read nome
+echo "Então seu nome é esse, $nome"
 
 
 if [ $idade -gt 20 ] #Verifica seum valor é maior que outro
