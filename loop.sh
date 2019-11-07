@@ -34,6 +34,10 @@ do
 	read digitado;
 done
 
+
+#___________
+### Contando
+
 echo "Informe até onde contar > 0: "
 read valor;
 i=1
