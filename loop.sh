@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 #____________
 ######### for
 
@@ -10,6 +11,7 @@ do
 	echo "$i"
 done
 
+
 #____________________________________
 #Outra maneira para criar um for loop
 
@@ -19,6 +21,7 @@ for i in $(seq 1 5 100);
 do
 	echo "$i"
 done
+
 
 #____________
 ####### While
